@@ -1,0 +1,16 @@
+# Store text with LF everywhere so scripts run in Linux containers and CI,
+# even when edited on Windows.
+* text=auto eol=lf
+
+*.sh       text eol=lf
+Makefile   text eol=lf
+*.py       text eol=lf
+*.yml      text eol=lf
+*.yaml     text eol=lf
+*.conf     text eol=lf
+
+*.png      binary
+*.jpg      binary
+*.gif      binary
+*.zip      binary
+*.jar      binary

@@ -1,0 +1,33 @@
+# Secrets
+.env
+*.pem
+*.key
+
+# Terraform
+*.tfstate*
+.terraform/
+*.tfplan
+
+# Containerlab runtime output and lab keys
+clab-*/
+lab/.ssh/
+
+# Java / Maven
+target/
+
+# Python
+__pycache__/
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Archives
+*.zip
+
+# Editors and OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
